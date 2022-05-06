@@ -832,4 +832,3 @@ export const Checkout = () => {
         </div>
     );
 };
-
