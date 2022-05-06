@@ -1,0 +1,80 @@
+body{
+    background-color: whitesmoke
+}
+.warning{
+    background-color: lavender;
+    width:80%;
+    height:50px;
+    
+    margin-left:90px ;
+    margin-top: 30px;
+    border-radius: 5px;
+    display:flex;
+    font-style: sans-serif;
+}
+.text{
+    font-size: 17px;
+    font-weight: 550;
+    text-align: left;
+    margin-left: 90px;
+    font-family: sans-serif;
+    color:black
+}
+
+
+.checkout_container{
+    display:flex;
+    
+    gap:50px;
+    margin-top:20px
+
+}
+.payment_details{
+    min-width: 300px;
+    height:350px;
+    background-color: white;
+    border-radius: "5px";
+    margin-left: 90px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+
+
+}
+.payment_text{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10px;
+    font-family: sans-serif;
+    color:black;
+    margin-top: 20px;
+    cursor:pointer
+}
+.payment_text:hover{
+    
+    color:red
+}
+.payment_entry{
+    min-width:400px;
+    height:300px;
+    border:1px solid red;
+}
+.payment_total{
+    min-width:300px;
+    min-height:500px;
+    
+}
+img{
+    height:110px;
+    width:110px;
+    margin-left: 5px;
+    
+}
+.accordion{
+    width:250px;
+    
+    
+}
+.shipping{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
